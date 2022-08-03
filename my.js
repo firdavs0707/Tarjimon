@@ -59,7 +59,49 @@ elForm.addEventListener('submit', function (event) {
     } else if (elInput.value == 'Yakshanba') {
       elResult.textContent = 'Yakshanba';
       return;
-    }return;
+    } else if (elInput.value == 'Monday') {
+      elResult.textContent = 'Dushanba';
+      return;
+    } else if (elInput.value == 'Tuesday') {
+      elResult.textContent = 'Seshanba';
+      return;
+    } else if (elInput.value == 'Wednesday') {
+      elResult.textContent = 'Chorshanba';
+      return;
+    } else if (elInput.value == 'Thursday') {
+      elResult.textContent = 'Payshanba';
+      return;
+    } else if (elInput.value == 'Friday') {
+      elResult.textContent = 'Juma';
+      return;
+    } else if (elInput.value == 'Saturday') {
+      elResult.textContent = 'Shanba';
+      return;
+    } else if (elInput.value == 'Sunday') {
+      elResult.textContent = 'Yakshanba';
+      return;
+    } if (elInput.value == 'Понедельник') {
+      elResult.textContent = 'Dushanba';
+      return;
+    } else if (elInput.value == 'Вторник') {
+      elResult.textContent = 'Seshanba';
+      return;
+    } else if (elInput.value == 'Среда') {
+      elResult.textContent = 'Chorshanba';
+      return;
+    } else if (elInput.value == 'Четверг') {
+      elResult.textContent = 'Payshanba';
+      return;
+    } else if (elInput.value == 'Пятница') {
+      elResult.textContent = 'Juma';
+      return;
+    } else if (elInput.value == 'Суббота') {
+      elResult.textContent = 'Shanba';
+      return;
+    } else if (elInput.value == 'Воскресенье') {
+      elResult.textContent = 'Yakshanba';
+      return;
+    } return;
   } else if (elSelection.value == 2){
   if (elInput.value == 'Dushanba') {
     elResult.textContent = 'Monday';
@@ -82,7 +124,28 @@ elForm.addEventListener('submit', function (event) {
   } else if (elInput.value == 'Yakshanba') {
     elResult.textContent = 'Sunday';
     return;
-  }return;
+  } else if (elInput.value == 'Monday') {
+    elResult.textContent = 'Monday';
+    return;
+  } else if (elInput.value == 'Tuesday') {
+    elResult.textContent = 'Tuesday';
+    return;
+  } else if (elInput.value == 'Wednesday') {
+    elResult.textContent = 'Wednesday';
+    return;
+  } else if (elInput.value == 'Thursday') {
+    elResult.textContent = 'Thursday';
+    return;
+  } else if (elInput.value == 'Friday') {
+    elResult.textContent = 'Friday';
+    return;
+  } else if (elInput.value == 'Saturday') {
+    elResult.textContent = 'Saturday';
+    return;
+  } else if (elInput.value == 'Sunday') {
+    elResult.textContent = 'Sunday';
+    return;
+  } return;
 } else if (elSelection.value == 3){
   if (elInput.value == 'Dushanba') {
     elResult.textContent = 'Понедельник';
@@ -105,7 +168,28 @@ elForm.addEventListener('submit', function (event) {
   } else if (elInput.value == 'Yakshanba') {
     elResult.textContent = 'Воскресенье';
     return;
-  }return;
+  } else if (elInput.value == 'Monday') {
+    elResult.textContent = 'Понедельник';
+    return;
+  } else if (elInput.value == 'Tuesday') {
+    elResult.textContent = 'Вторник';
+    return;
+  } else if (elInput.value == 'Wednesday') {
+    elResult.textContent = 'Среда';
+    return;
+  } else if (elInput.value == 'Thursday') {
+    elResult.textContent = 'Четверг';
+    return;
+  } else if (elInput.value == 'Friday') {
+    elResult.textContent = 'Пятница';
+    return;
+  } else if (elInput.value == 'Saturday') {
+    elResult.textContent = 'Суббота';
+    return;
+  } else if (elInput.value == 'Sunday') {
+    elResult.textContent = 'Воскресенье';
+    return;
+  } return;
 }
 })
 
